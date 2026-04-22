@@ -33,6 +33,3 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
 include vendor/xiaomi/nuwa/BoardConfigVendor.mk
-
-# Temporary permissive mode for debugging bootloop
-BOARD_BOOTCONFIG += androidboot.selinux=permissive
